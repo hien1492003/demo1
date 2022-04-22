@@ -1,0 +1,8 @@
+.section{
+    width: 60%;
+    min-height: 620px;
+    background-color: rgb(12, 175, 72);
+    color: rgb(15, 9, 130);
+    float: left;
+    margin-bottom: 5px;
+}

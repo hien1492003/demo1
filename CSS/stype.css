@@ -1,0 +1,128 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:rgb(250, 164, 4);
+}
+li{
+	float: left;
+}
+li a, .sanpham{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 35px 30px;
+	text-decoration: none; 
+}
+li a:hover, .sanpham:hover .sanpham{
+	background-color: red;
+}
+
+
+
+
+li.SảnPhẩm{
+	display: inline-block;
+}
+.SảnPhẩm-content {
+	display: none;
+	position: absolute;
+	background-color: #f7f2f2;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+	z-index: 1;
+}
+.SảnPhẩm-content a{
+	color: blue;
+	padding: 20px 25px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.SảnPhẩm-content a:hover{background-color: #dd0d0d;}
+.SảnPhẩm:hover .SảnPhẩm-content{
+	display: block;}
+nav input{
+	float: right;
+	font-size: 30px;
+}
+.timkiem{
+	position: relative;
+}
+.timkiemicon{
+	position: absolute;
+	right: 10px;
+}
+.app-container{
+	text-align: center;
+	align-items: center;
+	padding: 150px 0 50px 0;
+}
+.app-google{
+	margin: 50px;
+}
+.app-google img{
+	height: 70px;
+}
+.app-container p{
+	line-height: 20px;
+	letter-spacing: 1px;
+	font-size: 17px;
+	color: #000;
+	font-weight: bold;
+}
+.app-container input{
+	margin-top: 50px;
+	border: none;
+	border-bottom: 1px solid #000;
+	padding-bottom: 20px;
+	width: 400px;
+	text-align: center;
+	outline: none;
+}
+.footer-top{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	height: 70px;
+}
+.footer-top li{
+	padding: 0 12px;
+	position: relative;
+	color: #000;
+}
+.footer-top li::after{
+	content: " ";
+	display: block;
+	width: 1px;
+	height: 80%;
+	background: #cccccc;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.footer-top li:last-child::after{
+	display: none;
+}
+.footer-top li::last-child a{
+	margin-right: 12px;
+	color: #333;
+}
+.footer-center{
+	text-align: center;
+	height: 50px;
+}
+.footer-bottom{
+	margin: 20px 0;
+	text-align: center;
+	background-color: #6c41e1;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+

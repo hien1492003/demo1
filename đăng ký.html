@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop BD-Store</title>
+    <link rel="stylesheet" href="CSS/stype.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/đangky.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div>
+    <header>
+        <nav>
+            <ul>
+                <b>
+            <li><a href="index.html"><i>Trang Chủ</i></a></li>
+            <li><a href="liên hệ.html">Liên Hệ</a></li>
+            <li class="SảnPhẩm">
+                <a href="#" class="sanpham">
+                    Sản Phẩm
+                </a>
+                <div class="SảnPhẩm-content">
+                    <a href="laptop.html"><img id="icon-mobile" src="logo/icon-Laptop.png" alt="" width="15" height="15">Laptop</a>
+                    <a href="máy ảnh.html"><img id="icon-mobile" src="logo/icon-camera.png" alt="" width="15" height="15">Máy Ảnh</a>
+                    <a href="máy tính bảng.html"><img id="icon-mobile" src="logo/images.png" alt="" width="15" height="15">Máy Tính Bảng</a>
+                    <a href="phụ kiện.html"><img id="icon-mobile" src="logo/icon-headphone.jpg" alt="" width="15" height="15">Phụ Kiện</a>
+                    <a href="điện thoại.html"><img id="icon-mobile" src="logo/thin-312_iphone_smart_phone_mobile-512.png" alt="" width="15" height="15">Điện Thoại</a>
+                </div>
+            </li>
+            <li><a href="đăng ký.html">Đăng Ký</a></li>
+            <li><a href="login.html">Đăng Nhập</a></li>
+            <li><a href="#"><img id="icon-mobile" src="logo/icon-cart.png" alt="" width="15" height="15"> Giỏ Hàng</a></li>
+            <div class="timkiem">
+                <input type="search" value="Search">
+                <i class="material-icons timkiemicon" style="font-size:40px" style="right: auto;"></i>
+            </div>
+                </b> 
+            </ul>
+        </nav>
+    </header>
+    <section id="slider">
+        <div class="aspect-ratio-169" >
+            <img src="logo/banner-02.png" alt="" width="1503px" height="500px" >
+        </div>
+    </section>
+    <section style="background-color: rgb(214, 253, 22);">
+            <h2> Đăng ký </h2>
+            <center>
+                <div style="border: 2px solid rgb(79, 155, 255)">
+                    <h2>ĐĂNG KÍ THÀNH VIÊN</h2>
+                    <form action="" method="post">
+                        <fieldset>
+                            <table>
+
+                                <legend aign="center">
+                                    <h4>Thông Tin Cá Nhân</h4>
+                                </legend>
+                                <tr>
+                                    <td>Họ và Tên:</td>
+                                    <td><input type="text"></td>
+
+                                </tr>
+                                <tr>
+                                    <td>Giới Tính:</td>
+                                    <td>
+                                        <input type="radio" name="gender"> Nam
+                                        <input type="radio" name="gender"> Nữ
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ngày Sinh:</td>
+                                    <td><input type="date" name="user"></td>
+                                </tr>
+                                <td>Địa Chỉ:</td>
+                                <td> <textarea cols="50" rows="10"> </textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>số ĐT:</td>
+                                    <td>
+                                            <select name="country_code">
+                                                        <option value="+84">+84</option>
+                                                        <option value="+144">+114</option>
+                                                        <option value="+115">+115</option>
+                                                        <option value="+210">+210</option>
+                                                        <option value="+113">+113</option>
+                                            </select>
+                                        <input type="phone" name="mob_digits" placeholder="032*******">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td><input type="email" name="mail"></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <fieldset>
+                                <legend>
+                                    <h4>Thông Tin Đăng Nhập</h4>
+                                </legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        Tên Đăng Nhập :
+                                    </td>
+                                    <td>
+                                        <input type="" name="user">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Mật Khẩu :</td><td><input type="password" name="user_pass">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Xác Nhận Mật Khẩu:</td>
+                                    <td><input type="password" name="user_pass"></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input onclick="dangkí()" type="submit" name="btreset" value="Đăng ký">
+                                <input type="submit" name="submit" value="Huỷ">
+                            </td>
+                        </tr>
+                    </form>
+                </div>
+            </center>
+            <div class="footer-center">
+                <p>
+                    Công ty cổ phần Nguyễn Hiền với số đăng ký kinh doanh: 0392987493<br>
+                    Địa chỉ đăng ký: 150 Phường Phú Lợi Thành Phố Thủ Dầu Một Bình Dương
+                    Đặt hàng online <span>0392987493</span>
+                </p>
+            </div>
+        </section>
+    <div class="footer-bottom">
+        <b>
+            <i>
+                <h3>
+                    BD-Store All Rights reserved<br>
+                    Đẳng Cấp Tạo Nên Thương Hiệu Sản Phẩm<br>
+                    Nguyễn Chí Hiền
+                </h3>
+            </i>
+        </b>
+    </div>
+</div>
+</body>
+</html>

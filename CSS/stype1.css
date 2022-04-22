@@ -1,0 +1,18 @@
+.laptop {
+    float: center;
+    width:300px;/* bề rộng bao nhiêu tùy bạn */
+    height:310px     ; /* bề cao bao nhiêu tùy bạn */
+    display:block;
+
+        border: 2px solid rgb(18, 17, 17);
+        padding: 10px;
+        border-radius: 25px; 
+    
+ }
+.product_list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
